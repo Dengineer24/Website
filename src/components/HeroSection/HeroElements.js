@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 export const HeroContainer = styled.div `
     background: #0c00c0;
