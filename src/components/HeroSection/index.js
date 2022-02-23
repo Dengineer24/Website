@@ -3,6 +3,7 @@ import video from '../../videos/video.mp4'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper } from './HeroElements';
 import Typed from 'typed.js';
 import './app.css';
+import {Button} from '../ButtonElement';
 
 const HeroSection = () => {
   const el = React.useRef(null);
@@ -45,7 +46,9 @@ const HeroSection = () => {
             <div className='text-wrapper'>
             <span className='text-switch' ref={el} />
             </div>
-            <HeroBtnWrapper></HeroBtnWrapper>
+            <HeroBtnWrapper>
+              <Button>Find Out More</Button>
+            </HeroBtnWrapper>
         </HeroContent>
     </HeroContainer>
 
