@@ -1,14 +1,14 @@
 import React from 'react'
 import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements'
-
+import './app.css'
 
 const Navbar = ({ toggle }) => {
     return (
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to="/">Dengi</NavLogo>
+                    <NavLogo to="/"><img src='../favicon.png' className='logo'></img></NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>

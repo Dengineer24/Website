@@ -13,12 +13,16 @@ const HeroSection = () => {
     const options = {
     	strings: [
         'Aspiring Software Engineer',
+        'Backend Programing',
         'Machine Learning',
-        'Python '
+        'Python Profiecient '
       ],
       typeSpeed: 60,
       backSpeed: 60,
+      loop: true,
       loopCount: Infinity,
+      smartbackspace: true,
+      shuffle: false,
     };
     
     // elRef refers to the <span> rendered below

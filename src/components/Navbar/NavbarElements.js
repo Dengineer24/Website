@@ -33,8 +33,7 @@ export const NavbarContainer = styled.div `
 
 `;
 
-export const NavLogo = styled(LinkR)
-`
+export const NavLogo = styled(LinkR)`
   color: #fff;
   justify-self: flex-start;
   cursor: pointer;
@@ -43,7 +42,7 @@ export const NavLogo = styled(LinkR)
   align-items: center;
   margin-left: 24px;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: none; 
 `;
 
 export const MobileIcon = styled.div `
