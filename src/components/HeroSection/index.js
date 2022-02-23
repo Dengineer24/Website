@@ -12,10 +12,10 @@ const HeroSection = () => {
   React.useEffect(() => {
     const options = {
     	strings: [
-        'Aspiring Software Engineer',
-        'Backend Programing',
-        'Machine Learning',
-        'Python Profiecient '
+        'Aspiring Software Engineer ',
+        'Backend Develoment ',
+        'Machine Learning ',
+        'Web Development ',
       ],
       typeSpeed: 60,
       backSpeed: 60,
