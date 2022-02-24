@@ -1,5 +1,5 @@
 import React from 'react';
-import video from '../../videos/video.mp4'
+import video from '../../videos/video.mp4';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper } from './HeroElements';
 import Typed from 'typed.js';
 import './app.css';
