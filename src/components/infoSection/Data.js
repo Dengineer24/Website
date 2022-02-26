@@ -17,11 +17,7 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
     id: 'discover', 
-<<<<<<< Updated upstream
     lightBg: false,
-=======
-    lightBg: true,
->>>>>>> Stashed changes
     lightText: false,
     LightTextDesc: false,
     topLine: 'Unlimited Access',
@@ -37,11 +33,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-<<<<<<< Updated upstream
     id: 'signup',
-=======
-    id: 'sign-up', 
->>>>>>> Stashed changes
     lightBg: false,
     lightText: false,
     LightTextDesc: true,
