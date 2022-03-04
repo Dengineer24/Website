@@ -10,3 +10,9 @@
     margin-top: 5%;
 }
 
+.Github_logo {
+    height: 90px;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+}

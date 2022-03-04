@@ -1,9 +1,10 @@
 import React from 'react';
 import video from '../../videos/video.mp4';
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper } from './HeroElements';
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, LinkWrapper, GitBtn, HeroGitLink } from './HeroElements';
 import Typed from 'typed.js';
 import './app.css';
 import {Button} from '../ButtonElement';
+
 
 const HeroSection = () => {
   const el = React.useRef(null);
@@ -37,7 +38,6 @@ const HeroSection = () => {
   }, [])
   
 
-
   return (
     <HeroContainer>
         <HeroBg>
@@ -51,13 +51,14 @@ const HeroSection = () => {
             <HeroBtnWrapper>
               <Button>Find Out More</Button>
             </HeroBtnWrapper>
-            <LinkWrapper>
-              <HeroGitLink><GitBtn></GitBtn></HeroGitLink>
-              <HeroLinkedInLink><LinkedInBtn></LinkedInBtn></HeroLinkedInLink>
-              <HeroResumeLink><ResumeBtn></ResumeBtn></HeroResumeLink>
-            </LinkWrapper> 
+             <LinkWrapper>
+              <HeroGitLink href="https://github.com/dengineer24" target="_blank"><img class="Github_logo" target="_blank" src="../Github.png"></img></HeroGitLink>
+              {/* <HeroLinkedInLink><LinkedInBtn></LinkedInBtn></HeroLinkedInLink>
+              <HeroResumeLink><ResumeBtn></ResumeBtn></HeroResumeLink> */}
+            </LinkWrapper>
         </HeroContent>
     </HeroContainer>
+    
 
   )
 };
