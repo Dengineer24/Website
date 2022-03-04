@@ -77,3 +77,14 @@ export const HeroBtnWrapper = styled.div`
     flex-direction: column;
     align-items: center;
 `
+
+export const LinkWrapper = styled.div`
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`   
+
+export const HeroGitLink = styled.a`
+    
+`

@@ -4,15 +4,15 @@ export const homeObjOne = {
     lightText: false,
     LightTextDesc: false,
     topLine: 'Projects',
-    headline: 'I make cool stuff',
-    description: 'I like Python',
-    buttonLabel: 'Get Started',
+    headline: 'heading',
+    description: 'more',
+    buttonLabel: 'button',
     imgStart: false,
-    //img: require('../../images/svg-1.svg'),
+    img: require('./images2/logo.png'),
     alt: 'Car',
     dark: true,
-    primary: true,
-    darktext: false
+    primary: false,
+    darktext: true
 };
 
 export const homeObjTwo = {
@@ -20,14 +20,14 @@ export const homeObjTwo = {
     lightBg: false,
     lightText: false,
     LightTextDesc: false,
-    topLine: 'Unlimited Access',
-    headline: 'I make cool stuff',
-    description: 'I like Python',
-    buttonLabel: 'Get Started',
+    topLine: 'heading',
+    headline: 'more',
+    description: 'more',
+    buttonLabel: 'button',
     imgStart: true,
-    //img: require('../../images/svg-1.svg'),
+    img: require('./images2/logo.png'),
     alt: 'Car',
-    dark: false,
+    dark: true,
     primary: false,
     darktext: true
 };
@@ -42,9 +42,9 @@ export const homeObjThree = {
     description: 'I like Python',
     buttonLabel: 'Get Started',
     imgStart: false,
-    //img: require('../../images/svg-1.svg'),
+    img: require('./images2/logo.png'),
     alt: 'Car',
     dark: true,
-    primary: true,
-    darktext: false
+    primary: false,
+    darktext: true
 };

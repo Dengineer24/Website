@@ -35,6 +35,8 @@ const HeroSection = () => {
       typed.current.destroy();
     }
   }, [])
+  
+
 
   return (
     <HeroContainer>
@@ -49,6 +51,11 @@ const HeroSection = () => {
             <HeroBtnWrapper>
               <Button>Find Out More</Button>
             </HeroBtnWrapper>
+            <LinkWrapper>
+              <HeroGitLink><GitBtn></GitBtn></HeroGitLink>
+              <HeroLinkedInLink><LinkedInBtn></LinkedInBtn></HeroLinkedInLink>
+              <HeroResumeLink><ResumeBtn></ResumeBtn></HeroResumeLink>
+            </LinkWrapper> 
         </HeroContent>
     </HeroContainer>
 
