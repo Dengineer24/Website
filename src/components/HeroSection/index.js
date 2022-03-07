@@ -53,7 +53,7 @@ const HeroSection = () => {
             <span className='text-switch' ref={el} />
             </div>
             <HeroBtnWrapper>
-              <Button>Find Out More</Button>
+              <Button to="about">Find Out More</Button>
             </HeroBtnWrapper>
             <LinkConatiner>
               <LinkWrapper>

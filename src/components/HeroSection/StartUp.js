@@ -1,5 +1,3 @@
-import styled from "styled-components";
-
 const webaction = gsap.timeline({ defaults: { ease: "power1.out"}});
 
 
