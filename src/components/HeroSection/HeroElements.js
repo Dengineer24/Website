@@ -79,13 +79,29 @@ export const HeroBtnWrapper = styled.div`
 `
 
 export const LinkWrapper = styled.div`
-    display: flex;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    background-color: transparent;
+    grid-gap: 20px;
+    padding: 0 50px;
 
 `
 export const HeroGitLink = styled.a`
+`
+
+export const HeroLinkedInLink = styled.a`
+`
+
+export const LinkConatiner = styled.div`
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+`
+
+export const HeroResumeLink = styled.a`
 `

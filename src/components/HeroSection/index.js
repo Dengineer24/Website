@@ -1,6 +1,6 @@
 import React from 'react';
 import video from '../../videos/video.mp4';
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, LinkWrapper, GitBtn, HeroGitLink } from './HeroElements';
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, LinkWrapper, GitBtn, HeroGitLink, HeroLinkedInLink, LinkConatiner, HeroResumeLink } from './HeroElements';
 import Typed from 'typed.js';
 import './app.css';
 import {Button} from '../ButtonElement';
@@ -36,7 +36,11 @@ const HeroSection = () => {
       typed.current.destroy();
     }
   }, [])
-  
+
+  const githubLink = "https://github.com/dengineer24";
+  const linkedInLink = "https://linkedIn.com/in/dhruv-engineer";
+  const resumeLink = "https://drive.google.com/file/d/1dyJSynEy7GADGM3pL1tLepjEHe5-ozS0/view?usp=sharing"
+  const target = "_blank"
 
   return (
     <HeroContainer>
@@ -51,11 +55,13 @@ const HeroSection = () => {
             <HeroBtnWrapper>
               <Button>Find Out More</Button>
             </HeroBtnWrapper>
-             <LinkWrapper>
-              <HeroGitLink href="https://github.com/dengineer24" target="_blank"><img class="Github_logo" target="_blank" src="../Github.png"></img></HeroGitLink>
-              {/* <HeroLinkedInLink><LinkedInBtn></LinkedInBtn></HeroLinkedInLink>
-              <HeroResumeLink><ResumeBtn></ResumeBtn></HeroResumeLink> */}
-            </LinkWrapper>
+            <LinkConatiner>
+              <LinkWrapper>
+                <HeroGitLink href={githubLink} target={target}><img class="Github_logo" target="_blank" src="../Github.png"></img></HeroGitLink>
+                <HeroLinkedInLink href={linkedInLink} target={target}><img class="LinkedIn_logo" target="_blank" src="../LI-In-Bug.png"></img></HeroLinkedInLink>
+                <HeroResumeLink href={resumeLink} target={target}><img class="Resume_logo" target="_blank" src="../unnamed.png"></img></HeroResumeLink>
+              </LinkWrapper>
+            </LinkConatiner>
         </HeroContent>
     </HeroContainer>
     

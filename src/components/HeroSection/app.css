@@ -11,8 +11,46 @@
 }
 
 .Github_logo {
-    height: 90px;
+    height: 50px;
     width: auto;
     background-color: transparent;
     display: flex;
+    transition: 0.3s all ease-in-out;
+}
+
+.LinkedIn_logo {
+    height: 50px;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    transition: 0.3s all ease-in-out;
+}
+
+.LinkedIn_logo:hover {
+    height: 70px;
+    width: auto;
+    transition: 0.3s all ease-in-out;
+}
+
+.Github_logo:hover {
+    height: 70px;
+    width: auto;
+    transition: 0.3s all ease-in-out;
+    
+}
+
+.Resume_logo {
+    height: 50px;
+    width: auto;
+    color: #fff;
+    background-color: transparent;
+    display: flex;
+    transition: 0.3s all ease-in-out;
+}
+
+.Resume_logo:hover {
+    height: 70px;
+    width: auto;
+    transition: 0.3s all ease-in-out;
+    
 }
