@@ -4,8 +4,9 @@ import { ImgWrap, InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWra
 
 
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, img, alt, primary, dark, dark2}) => {
-  return (
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, img, alt, primary, dark, dark2, buttonLabel}) => {
+  
+    return (
     <>
         <InfoContainer lightBg={lightBg} id={id}>
             <InfoWrapper>
@@ -16,7 +17,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle darktext={darkText}>{description}</Subtitle>
                             <BtnWrap>
-                                 <Button to="home" 
+                                 <Button to="projects" 
                                  smooth={true}
                                  duration={500}
                                  spy={true}
@@ -25,7 +26,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                  primary={primary ? 1 : 0}
                                  dark={dark ? 0 : 1}
                                  dark2={dark2 ? 0 : 1}
-                                 >Button</Button>   
+                                 >{buttonLabel}</Button>   
                             </BtnWrap> 
                         </TextWrapper>
                     </Column1>

@@ -1,23 +1,34 @@
+import { SystemUpdate } from '@material-ui/icons';
+
+var year = "2024"
+var month = "May"
+var obj1Headline = `I am a CS student at Binghamton University graduating in ${month}, ${year} persuing a Software Engineering Internship `
+var objdescript = ``
+for (let i = 0; i < 10; i++) {
+    console.log('count %d', i);
+}
+
 export const homeObjOne = {
     id: 'about', 
     lightBg: false,
     lightText: false,
     LightTextDesc: false,
-    topLine: 'Projects',
-    headline: 'heading',
-    description: 'more',
-    buttonLabel: 'button',
+    topLine: 'About Me',
+    headline: obj1Headline,
+    description: '',
+    buttonLabel: 'View Projects',
     imgStart: false,
     img: require('./images2/logo.png'),
     alt: 'Car',
     dark: true,
     primary: false,
-    darktext: true
+    darktext: true,
+    
 };
 
 export const homeObjTwo = {
-    id: 'discover', 
-    lightBg: false,
+    id: 'projects', 
+    lightBg: true,
     lightText: false,
     LightTextDesc: false,
     topLine: 'heading',
@@ -33,7 +44,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id: 'signup',
+    id: 'skills',
     lightBg: false,
     lightText: false,
     LightTextDesc: true,
