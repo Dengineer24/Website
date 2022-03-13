@@ -1,0 +1,43 @@
+import styled from "styled-components";
+import { Link as LinkS } from 'react-scroll';
+
+export const ProjectContainer = styled.div`
+    background: #232a34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 800px;
+    position: relative;
+`;
+
+export const ProjectsWrapper = styled.div`
+`;
+
+export const CardGrid = styled.div`
+//    display: grid;
+  //  grid-template-columns: repeat(1, 1fr);
+    //grid-column-gap: 10px;
+//    grid-row-gap: 10px;
+  //  max-width: 500px;
+    //width: 100%;
+`;
+
+export const Cards = styled.div`
+    display: flex;
+    position: relative;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0);
+    transition: 0.3s;
+    background-color: white;
+`
+export const CardWrapper = styled.div`
+`
+
+export const CardPhoto = styled(LinkS)`
+`
+
+export const CardHeader = styled.h2`
+`
+
+export const CardDesc = styled.p`
+`
