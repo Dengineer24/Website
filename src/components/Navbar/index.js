@@ -24,26 +24,26 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav scrollNav = {scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/"><img src='../favicon.png' className='logo'></img></NavLogo>
+                    <NavLogo to="hero" smooth={true} duration={500} spy={true} exact="true" offset={-80} ><img src='../favicon.png' className='logo'></img></NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about">About</NavLinks>
+                            <NavLinks to="about" smooth={true} duration={500} spy={true} exact="true" offset={-80}>About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="projects">Projects</NavLinks>
+                            <NavLinks to="projects" smooth={true} duration={500} spy={true} exact="true" offset={-80}>Projects</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="skils">Skills</NavLinks>
+                            <NavLinks to="skils" smooth={true} duration={500} spy={true} exact="true" offset={-80}>Skills</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="signup">Contact Me</NavLinks>
+                            <NavLinks to="signup" smooth={true} duration={500} spy={true} exact="true" offset={-80}>Contact Me</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                        <NavBtnLink to="/signin" smooth={true} duration={500} spy={true} exact="true" offset={-80}>Sign In</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

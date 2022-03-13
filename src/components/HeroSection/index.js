@@ -17,7 +17,7 @@ const HeroSection = () => {
         'Aspiring Software Engineer ',
         'Backend Develoment ',
         'Machine Learning ',
-        'Web Development ',
+        'Front-End Development ',
       ],
       typeSpeed: 60,
       backSpeed: 60,
@@ -43,7 +43,7 @@ const HeroSection = () => {
   const target = "_blank"
 
   return (
-    <HeroContainer>
+    <HeroContainer id="hero" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
         <HeroBg>
             <VideoBg autoPlay loop muted src={video} type='video/mp4' />
         </HeroBg>
