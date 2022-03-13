@@ -1,0 +1,58 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    max-width: 350px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 10px;
+    height: 500px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgb(90, 70, 155);
+  }
+  
+  /* Add some padding inside the card container */
+.container {
+    padding: 5px 20px;
+  }
+
+.mg2 {
+    max-width: 350px;
+}
+
+.card_container {
+    background-color: #232a34;
+}
+
+.full_wrapper {
+    background-color: #232a34;
+    display: grid;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-right: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.header {
+    padding: 10px;
+}
+
+.para {
+    padding: 10px;
+}
+
+#skills {
+    border: 2px solid rgb(90, 70, 155);
+    border-radius: 2px;
+    display: inline;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+}
