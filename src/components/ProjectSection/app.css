@@ -18,4 +18,27 @@
 .viewMore:hover{
     background-color: black;
     color: #fff;
+    border: 1px solid #fff;
+    transition: 0.1s all ease-in-out;
+}
+
+.projectCards {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    max-width: 350px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 10px;
+    height: 455px;
+}
+
+.notdisplayed {
+    display: none;
+}
+  
+.displayed {
+    display: flex;
+    height: 20px;
+    margin: auto;
 }

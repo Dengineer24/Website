@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Link from "react-scroll"
 
 export const ProjectContainer = styled.div`
     background-color: #232a34;
@@ -21,11 +22,11 @@ export const ProjectTitle = styled.h1`
 export const CardWrapper = styled.div`
     background-color: #232a34;
     display: grid;
-    margin: 0 auto;
-    padding-bottom: 10%;
-    padding-left: 10%;
+    justify-items: center;
+    justify-content: center;
+    padding-bottom: 7%;
     padding-top: 3%;
-    padding-right: 10%;
+    overflow: hidden;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 10px;
@@ -52,6 +53,7 @@ export const Card = styled.div`
     justify-items: center;
     border-radius: 10px;
     height: 455px;
+
     &:hover {
         box-shadow: 0 8px 16px 0 rgb(90, 70, 155);
         transform: scale(1.05);
@@ -87,11 +89,13 @@ text-decoration: none;
 padding: 2px 16px;
 text-align: center;
 display: inline;
+margin: 0 auto;
 
 `
 
 export const ButtonWrapper = styled.div`
+display: flex;
 justify-content: center;
 text-align: center;
-
+padding-bottom: 15px
 `

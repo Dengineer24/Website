@@ -1,17 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './app.css'
-import { ProjectContainer, ProjectWrapper, ProjectTitle, CardWrapper, CardContainer, Card, ProjectPic, ProjectInfoContainer, ProjectHeader, ProjectPara, Skills, GtBtn, ButtonWrapper } from './ProjectElements'
+import { ProjectContainer, ProjectWrapper, ProjectTitle, CardWrapper, CardContainer, Card, ProjectPic, ProjectInfoContainer, ProjectHeader, ProjectPara, Skills, ButtonWrapper, GtBtn} from './ProjectElements'
+import { Button } from '../ButtonElement'
 
 function Projects() {
+    const [display, setDisplay] = useState("notdisplayed");
+    const showButton = e => {
+        e.preventDefault();
+        setDisplay("displayed")
+    };
+
+    const hideButton = e => {
+        e.preventDefault();
+        setDisplay("notdisplayed")
+    };
+
+
   return (
     <>
         <ProjectContainer id="projects" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
             <ProjectWrapper>
-                <ProjectTitle>Projects</ProjectTitle>
+                <ProjectTitle >Projects</ProjectTitle>
             </ProjectWrapper>
             <CardWrapper>
                 <CardContainer>
-                    <Card>
+                    <div class="projectCards" onMouseEnter={e => showButton(e)} onMouseLeave={e => hideButton(e)}>
                         <ProjectPic src="../undraw_augmented_reality_re_f0qd.svg"></ProjectPic>
                         <ProjectInfoContainer>
                             <ProjectHeader>"intARactive Models</ProjectHeader>
@@ -20,11 +33,12 @@ function Projects() {
                             <Skills>Node.js</Skills>
                             <Skills>Express.js</Skills>
                             <Skills>HTML/CSS</Skills>
+                            <button className={display}>github</button>
                         </ProjectInfoContainer>
-                    </Card>
+                    </div>
                 </CardContainer>
                 <CardContainer>
-                    <Card>
+                    <div class="projectCards">
                         <ProjectPic src="../undraw_developer_activity_re_39tg.svg"></ProjectPic>
                         <ProjectInfoContainer>
                             <ProjectHeader>Sneaker Identifier</ProjectHeader>
@@ -33,10 +47,10 @@ function Projects() {
                             <Skills>React JS</Skills>
                             <Skills>HTML/CSS</Skills>
                         </ProjectInfoContainer>
-                    </Card>
+                    </div>
                 </CardContainer>
                 <CardContainer>
-                    <Card>
+                    <div class="projectCards">
                         <ProjectPic src="../undraw_tabs_re_a2bd.svg"></ProjectPic>
                         <ProjectInfoContainer>
                             <ProjectHeader>Portfolio Website</ProjectHeader>
@@ -45,15 +59,17 @@ function Projects() {
                             <Skills>HTML/CSS</Skills>
                             <Skills>JavaScript</Skills>
                         </ProjectInfoContainer>
-                    </Card>
+                    </div>
                 </CardContainer>
             </CardWrapper>
             <ButtonWrapper>
-            <GtBtn href="https://github.com/Dengineer24?tab=repositories" target="_blank"><button class="viewMore">View More</button></GtBtn>
+                <Button class="Skills_button" to="skills" smooth={true} duration={500}spy={true}exact="true" offset={-80}>Skills</Button>
+                <GtBtn href="https://github.com/Dengineer24?tab=repositories" target="_blank"><button class="viewMore">View More</button></GtBtn>
             </ButtonWrapper>
         </ProjectContainer>
+        
     </>
   )
-}
+};
 
 export default Projects

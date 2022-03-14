@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {FaBars} from 'react-icons/fa'
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements'
+import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks} from './NavbarElements'
 import './app.css'
 
 
@@ -42,9 +42,6 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to="signup" smooth={true} duration={500} spy={true} exact="true" offset={-80}>Contact Me</NavLinks>
                         </NavItem>
                     </NavMenu>
-                    <NavBtn>
-                        <NavBtnLink to="/signin" smooth={true} duration={500} spy={true} exact="true" offset={-80}>Sign In</NavBtnLink>
-                    </NavBtn>
                 </NavbarContainer>
             </Nav>
         </>
