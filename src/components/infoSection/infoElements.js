@@ -56,13 +56,15 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-    color: rgb(90, 70, 150);
+    color: #fff;
     font-size: 30px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+    padding-bottom: 30px;
+
 `;
 
 export const Heading = styled.h1`

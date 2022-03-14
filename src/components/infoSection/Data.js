@@ -12,7 +12,7 @@ export const homeObjOne = {
     id: 'about', 
     lightBg: false,
     lightText: false,
-    LightTextDesc: false,
+    LightTextDesc: true,
     topLine: 'About Me',
     headline: obj1Headline,
     description: '',
