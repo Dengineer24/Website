@@ -83,6 +83,15 @@ export const Skills = styled.p`
 `
 
 export const GtBtn = styled.a`
+text-decoration: none;
+padding: 2px 16px;
+text-align: center;
+display: inline;
+
 `
 
-export const ButtonWrapper = styled.div``
+export const ButtonWrapper = styled.div`
+justify-content: center;
+text-align: center;
+
+`

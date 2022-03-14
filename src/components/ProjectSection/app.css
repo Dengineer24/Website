@@ -1,7 +1,6 @@
 .viewMore {
     border-radius: 50px;
     background: rgb(90, 70, 155);
-    white-space: nowrap;
     padding: 12px 30px;
     color: #fff;
     font-size: 15px;
@@ -12,6 +11,8 @@
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    
 }
 
 .viewMore:hover{
