@@ -56,9 +56,9 @@ const HeroSection = () => {
             </HeroBtnWrapper>
             <LinkConatiner>
               <LinkWrapper>
-                <HeroGitLink href={githubLink} target={target} rel="noopener noreferrer"><img class="Github_logo" target="_blank" src="../Github.png"></img></HeroGitLink>
-                <HeroLinkedInLink href={linkedInLink} target={target} rel="noopener noreferrer"><img class="LinkedIn_logo" target="_blank" src="../LI-In-Bug.png"></img></HeroLinkedInLink>
-                <HeroResumeLink href={resumeLink} target={target} rel="noopener noreferrer"><img class="Resume_logo" target="_blank" src="../unnamed.png"></img></HeroResumeLink>
+                <HeroGitLink href={githubLink} target={target} rel="noopener noreferrer"><img class="Github_logo" src="../Github.png"></img></HeroGitLink>
+                <HeroLinkedInLink href={linkedInLink} target={target} rel="noopener noreferrer"><img class="LinkedIn_logo" src="../LI-In-Bug.png"></img></HeroLinkedInLink>
+                <HeroResumeLink href={resumeLink} target={target} rel="noopener noreferrer"><img class="Resume_logo" src="../unnamed.png"></img></HeroResumeLink>
               </LinkWrapper>
             </LinkConatiner>
         </HeroContent>
