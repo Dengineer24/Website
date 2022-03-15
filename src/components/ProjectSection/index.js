@@ -24,21 +24,21 @@ function Projects() {
             </ProjectWrapper>
             <CardWrapper>
                 <CardContainer>
-                    <div class="projectCards" onMouseEnter={e => showButton(e)} onMouseLeave={e => hideButton(e)}>
-                        <ProjectPic src="../undraw_augmented_reality_re_f0qd.svg"></ProjectPic>
-                        <ProjectInfoContainer>
-                            <ProjectHeader>"intARactive Models</ProjectHeader>
-                            <ProjectPara>A full-stack application that allows students to view models of mechanical objects in Augmented Reality, and chat at the same time</ProjectPara>
-                            <Skills>React JS</Skills>
-                            <Skills>Node.js</Skills>
-                            <Skills>Express.js</Skills>
-                            <Skills>HTML/CSS</Skills>
-                            <button className={display}>github</button>
-                        </ProjectInfoContainer>
+                    <div class="projectCards">
+                            <ProjectPic src="../undraw_augmented_reality_re_f0qd.svg"></ProjectPic>
+                            <ProjectInfoContainer>
+                                <ProjectHeader>"intARactive Models</ProjectHeader>
+                                <ProjectPara>A full-stack application that allows students to view models of mechanical objects in Augmented Reality, and chat at the same time</ProjectPara>
+                                <Skills>React JS</Skills>
+                                <Skills>Node.js</Skills>
+                                <Skills>Express.js</Skills>
+                                <Skills>HTML/CSS</Skills>
+                            </ProjectInfoContainer>
+                            <a class="link" href="https://github.com/Dengineer24/intARactive-models" target="_blank"><button class="viewMore1">GitHub</button></a>
                     </div>
                 </CardContainer>
                 <CardContainer>
-                    <div class="projectCards">
+                    <div class="projectCards1">
                         <ProjectPic src="../undraw_developer_activity_re_39tg.svg"></ProjectPic>
                         <ProjectInfoContainer>
                             <ProjectHeader>Sneaker Identifier</ProjectHeader>
@@ -47,10 +47,11 @@ function Projects() {
                             <Skills>React JS</Skills>
                             <Skills>HTML/CSS</Skills>
                         </ProjectInfoContainer>
+                        <a class="link" href="https://github.com/Dengineer24/Shoe-Identifier" target="_blank"><button class="viewMore1">GitHub</button></a>
                     </div>
                 </CardContainer>
                 <CardContainer>
-                    <div class="projectCards">
+                    <div class="projectCards2">
                         <ProjectPic src="../undraw_tabs_re_a2bd.svg"></ProjectPic>
                         <ProjectInfoContainer>
                             <ProjectHeader>Portfolio Website</ProjectHeader>
@@ -59,11 +60,11 @@ function Projects() {
                             <Skills>HTML/CSS</Skills>
                             <Skills>JavaScript</Skills>
                         </ProjectInfoContainer>
+                        <a class="link" href="https://github.com/Dengineer24/Website" target="_blank"><button class="viewMore1">GitHub</button></a>
                     </div>
                 </CardContainer>
             </CardWrapper>
             <ButtonWrapper>
-                <Button class="Skills_button" to="skills" smooth={true} duration={500}spy={true}exact="true" offset={-80}>Skills</Button>
                 <GtBtn href="https://github.com/Dengineer24?tab=repositories" target="_blank"><button class="viewMore">View More</button></GtBtn>
             </ButtonWrapper>
         </ProjectContainer>

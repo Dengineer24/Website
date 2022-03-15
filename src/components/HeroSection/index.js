@@ -1,5 +1,4 @@
 import React from 'react';
-import video from '../../videos/video.mp4';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, LinkWrapper, GitBtn, HeroGitLink, HeroLinkedInLink, LinkConatiner, HeroResumeLink } from './HeroElements';
 import Typed from 'typed.js';
 import './app.css';
@@ -45,7 +44,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="hero" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
         <HeroBg>
-            <VideoBg autoPlay loop muted src={video} type='video/mp4' />
+            <VideoBg />
         </HeroBg>
         <HeroContent>
             <HeroH1>Dhruv Engineer</HeroH1>

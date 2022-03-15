@@ -8,6 +8,7 @@
     border: none;
     cursor: pointer;
     display: flex;
+    padding-top: 10px;
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
@@ -22,6 +23,39 @@
     transition: 0.1s all ease-in-out;
 }
 
+.link  {
+    text-decoration: none;
+    padding: 2px 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewMore1 {
+    border-radius: 50px;
+    background: rgb(90, 70, 155);
+    padding: 12px 30px;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    
+}
+
+.viewMore1:hover{
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.1s all ease-in-out;
+}
 .projectCards {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -32,6 +66,42 @@
     border-radius: 10px;
     height: 455px;
 }
+
+.projectCards:hover {
+    transform: scale(1.1);
+}
+
+.projectCards1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    max-width: 350px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 10px;
+    height: 455px;
+}
+
+.projectCards1:hover {
+    transform: scale(1.1);
+}
+
+.projectCards2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    max-width: 350px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 10px;
+    height: 455px;
+}
+
+.projectCards2:hover {
+    transform: scale(1.1);
+}
+
+
 
 .notdisplayed {
     display: none;

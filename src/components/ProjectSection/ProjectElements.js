@@ -24,7 +24,7 @@ export const CardWrapper = styled.div`
     display: grid;
     justify-items: center;
     justify-content: center;
-    padding-bottom: 7%;
+    padding-bottom: 5%;
     padding-top: 3%;
     overflow: hidden;
     grid-template-columns: 1fr 1fr 1fr;
@@ -62,6 +62,9 @@ export const Card = styled.div`
 
 export const ProjectPic = styled.img`
     max-width: 350px;
+    max-height: 250px;
+    justify-content: center;
+    padding: 2px all;
 `
 
 export const ProjectInfoContainer = styled.div`
@@ -97,5 +100,5 @@ export const ButtonWrapper = styled.div`
 display: flex;
 justify-content: center;
 text-align: center;
-padding-bottom: 15px
+padding-bottom: 10px;
 `
