@@ -34,7 +34,7 @@ function Projects() {
                                 <Skills>Express.js</Skills>
                                 <Skills>HTML/CSS</Skills>
                             </ProjectInfoContainer>
-                            <a class="link" href="https://github.com/Dengineer24/intARactive-models" target="_blank"><button class="viewMore1">GitHub</button></a>
+                            <a class="link" href="https://github.com/Dengineer24/intARactive-models" target="_blank" rel="noopener noreferrer"><button class="viewMore1">GitHub</button></a>
                     </div>
                 </CardContainer>
                 <CardContainer>
@@ -47,7 +47,7 @@ function Projects() {
                             <Skills>React JS</Skills>
                             <Skills>HTML/CSS</Skills>
                         </ProjectInfoContainer>
-                        <a class="link" href="https://github.com/Dengineer24/Shoe-Identifier" target="_blank"><button class="viewMore1">GitHub</button></a>
+                        <a class="link" href="https://github.com/Dengineer24/Shoe-Identifier" target="_blank" rel="noopener noreferrer"><button class="viewMore1">GitHub</button></a>
                     </div>
                 </CardContainer>
                 <CardContainer>
@@ -60,12 +60,12 @@ function Projects() {
                             <Skills>HTML/CSS</Skills>
                             <Skills>JavaScript</Skills>
                         </ProjectInfoContainer>
-                        <a class="link" href="https://github.com/Dengineer24/Website" target="_blank"><button class="viewMore1">GitHub</button></a>
+                        <a class="link" href="https://github.com/Dengineer24/Website" target="_blank" rel="noopener noreferrer"><button class="viewMore1">GitHub</button></a>
                     </div>
                 </CardContainer>
             </CardWrapper>
             <ButtonWrapper>
-                <GtBtn href="https://github.com/Dengineer24?tab=repositories" target="_blank"><button class="viewMore">View More</button></GtBtn>
+                <GtBtn href="https://github.com/Dengineer24?tab=repositories" target="_blank" rel="noopener noreferrer"><button class="viewMore">View More</button></GtBtn>
             </ButtonWrapper>
         </ProjectContainer>
         

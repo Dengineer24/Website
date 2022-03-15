@@ -26,6 +26,8 @@ export const AboutSkills = styled.div`
 export const SkillList = styled.ul`
     text-decoration: none;
     list-style-type: none;
+    padding-bottom: 50px;
+    width: 300px;
 `
 
 export const Cskills = styled.li`
