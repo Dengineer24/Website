@@ -1,0 +1,13 @@
+.about_me {
+    color: #fff;
+    padding: 10px 16px;
+    text-align: center;
+    justify-self: center;
+}
+
+.about_me_cont {
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+}

@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-    display: flex;
     justify-content: center;
     background-color: #000;
 `
 
 export const AboutWrapper = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
     @media screen and (max-width: 700px){
         grid-template-columns: 1fr;
@@ -26,6 +25,7 @@ export const AboutSkills = styled.div`
 export const SkillList = styled.ul`
     text-decoration: none;
     list-style-type: none;
+    padding-top: 50px;
     padding-bottom: 50px;
     width: 300px;
 `
@@ -33,6 +33,8 @@ export const SkillList = styled.ul`
 export const Cskills = styled.li`
     text-decoration: none;
     list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
 `
 
 export const Experince = styled.div`
