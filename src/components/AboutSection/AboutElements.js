@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const AboutContainer = styled.div`
     justify-content: center;
     background-color: #000;
+    position: relative;
 `
 
 export const AboutWrapper = styled.div`
