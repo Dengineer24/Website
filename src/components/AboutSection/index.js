@@ -1,6 +1,7 @@
 import React from 'react'
 import { AboutContainer, AboutWrapper, AboutSkills, SkillList, Cskills, Experince, AboutExperince } from './AboutElements'
 import "./app.css"
+import {Button} from '../ButtonElement';
 
 function About() {
   return (
@@ -30,10 +31,10 @@ function About() {
                         <Cskills>Information Technology Intern at Cornwall Central School District</Cskills>
                     </SkillList>
                 </AboutSkills>
-                {/* <Experince>
-                    <AboutExperince>Hello</AboutExperince>
-                </Experince> */}
             </AboutWrapper>
+            <div class="btn_wrap">
+                <Button to="projects" smooth={true} duration={500} spy={true} exact="true" offset={-80}>Projects</Button>
+            </div>
         </AboutContainer>
     </>
   )

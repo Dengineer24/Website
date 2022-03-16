@@ -9,7 +9,7 @@ export const AboutWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
-    @media screen and (max-width: 700px){
+    @media screen and (max-width: 600px){
         grid-template-columns: 1fr;
     }
 `
@@ -25,9 +25,10 @@ export const AboutSkills = styled.div`
 export const SkillList = styled.ul`
     text-decoration: none;
     list-style-type: none;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     width: 300px;
+    font-size: 25px;
 `
 
 export const Cskills = styled.li`
@@ -35,6 +36,7 @@ export const Cskills = styled.li`
     list-style-type: none;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 20px;
 `
 
 export const Experince = styled.div`
