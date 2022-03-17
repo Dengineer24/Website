@@ -36,7 +36,7 @@ function Projects() {
                                 <Skills>Express.js</Skills>
                                 <Skills>HTML/CSS</Skills>
                             </ProjectInfoContainer>
-                            <a class="link" href="https://github.com/Dengineer24/intARactive-models" target="_blank" rel="noopener noreferrer"><button class="viewMore1">GitHub</button></a>
+                            <a className="link" href="https://github.com/Dengineer24/intARactive-models" target="_blank" rel="noopener noreferrer"><button className="viewMore1">GitHub</button></a>
                     </div>
                 </CardContainer>
                 <CardContainer>
