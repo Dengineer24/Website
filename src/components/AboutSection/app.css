@@ -17,5 +17,6 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 75px;
+    padding-bottom: 15px;
 }

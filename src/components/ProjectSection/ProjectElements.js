@@ -39,7 +39,7 @@ export const CardWrapper = styled.div`
 
         @media screen and (max-width: 768px) {
             grid-template-columns: 1fr;
-            margin: 0 auto;
+            
         }
 `
 

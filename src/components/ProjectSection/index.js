@@ -27,8 +27,10 @@ function Projects() {
                     <div class="projectCards">
                             <ProjectPic src="../undraw_augmented_reality_re_f0qd.svg"></ProjectPic>
                             <ProjectInfoContainer>
-                                <ProjectHeader>"intARactive Models</ProjectHeader>
-                                <ProjectPara>A full-stack application that allows students to view models of mechanical objects in Augmented Reality, and chat at the same time</ProjectPara>
+                                <ProjectHeader>intARactive Models</ProjectHeader>
+                                <ProjectPara>A full stack application that allows 
+                                    students to view models of mechanical objects in 
+                                    Augmented Reality, and chat at the same time</ProjectPara>
                                 <Skills>React JS</Skills>
                                 <Skills>Node.js</Skills>
                                 <Skills>Express.js</Skills>
@@ -42,7 +44,7 @@ function Projects() {
                         <ProjectPic src="../undraw_developer_activity_re_39tg.svg"></ProjectPic>
                         <ProjectInfoContainer>
                             <ProjectHeader>Sneaker Identifier</ProjectHeader>
-                            <ProjectPara>A full-stack application that can detect shoes through a machine learngin algorythm</ProjectPara>
+                            <ProjectPara>A python application that can detect sneakers through a machine learning algorithm</ProjectPara>
                             <Skills>Python</Skills>
                             <Skills>React JS</Skills>
                             <Skills>HTML/CSS</Skills>

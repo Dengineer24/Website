@@ -14,7 +14,7 @@ const HeroSection = () => {
     const options = {
     	strings: [
         'Aspiring Software Engineer ',
-        'Backend Develoment ',
+        'Backend Development ',
         'Machine Learning ',
         'Front-End Development ',
       ],

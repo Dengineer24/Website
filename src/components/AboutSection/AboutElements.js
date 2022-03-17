@@ -6,14 +6,20 @@ export const AboutContainer = styled.div`
     position: relative;
     min-height: 100vh;
     align-items: center;
+    border: none;
 `
 
 export const AboutWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 10px;
+    grid-row-gap: 10px;
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 1016px){
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: 673px){
         grid-template-columns: 1fr;
     }
 `
@@ -32,6 +38,7 @@ export const AboutSkills = styled.div`
     justify-items: center;
     margin: 0 auto;
     padding: 20px 20px;
+    grid-row-gap: 10px;
     transition: 0.3s all ease-in-out;
 
     &:hover {
