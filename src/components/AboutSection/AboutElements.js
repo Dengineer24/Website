@@ -2,13 +2,16 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
     justify-content: center;
-    background-color: #000;
+    background-color: #13171c;
     position: relative;
+    min-height: 100vh;
+    align-items: center;
 `
 
 export const AboutWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
 
     @media screen and (max-width: 600px){
         grid-template-columns: 1fr;
@@ -17,10 +20,24 @@ export const AboutWrapper = styled.div`
 
 export const AboutSkills = styled.div`
     display: flex;
-    color: #fff;
+    color: #000;
     justify-content: center;
     text-decoration: none;
     border: none;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid rgb(70.90,155);
+    overflow: hidden;
+    max-width: 500px;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+    transition: 0.3s all ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.3s all ease-in-out;
+    }
 `
 
 export const SkillList = styled.ul`
@@ -49,5 +66,4 @@ export const Experince = styled.div`
 `
 
 export const AboutExperince = styled.div`
-    background-color: red;
 `

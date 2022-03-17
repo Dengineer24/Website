@@ -9,6 +9,7 @@ export const HeroContainer = styled.div `
     height: 800px;
     position: relative;
     z-index: 1;
+    min-height: 100vh;
 `;
 
 export const HeroBg = styled.div`

@@ -3,6 +3,7 @@ import Link from "react-scroll"
 
 export const ProjectContainer = styled.div`
     background-color: #232a34;
+    min-height: 100vh;
 `
 
 export const ProjectWrapper = styled.div`
@@ -10,6 +11,7 @@ export const ProjectWrapper = styled.div`
     justify-content: cetner;
     justify-self: center;
     text-align: center;
+    padding-top: 50px;
 `
 
 export const ProjectTitle = styled.h1`
@@ -100,5 +102,6 @@ export const ButtonWrapper = styled.div`
 display: flex;
 justify-content: center;
 text-align: center;
-padding-bottom: 10px;
+padding-bottom: 20px;
+padding-top: 20px;
 `

@@ -8,14 +8,14 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #0d0d0d;
+    background: rgb(90,70, 155 );
     display: grid;
     align-items: center;
-    top: 0;
+    bottom: 0;
     left: 0;
     transition: 0.3s ease-in-out;
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-    top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+    left: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 
 
 `;
@@ -42,11 +42,11 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 80px);
+    grid-template-rows: repeat(3, 80px);
     text-align: center;
 
     @media screen and (max-width: 480px)  {
-        grid-template-rows: repeat(6, 60px);
+        grid-template-rows: repeat(3, 60px);
     }
 `
 
@@ -75,7 +75,7 @@ export const SideBtnWrap = styled.div`
 
 export const SidebarRoute = styled(LinkR)`
     border-radius: 50px;
-    background: rgb(90, 70, 155);
+    background: #000;
     white-space: nowrap;
     padding: 16px 64px;
     color: #fff;

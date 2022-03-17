@@ -1,6 +1,6 @@
 .about_me {
     color: #fff;
-    padding: 20px 32px;
+    padding-top: 100px;
     text-align: center;
     justify-self: center;
 }
@@ -10,11 +10,12 @@
     justify-content: center;
     justify-self: center;
     text-align: center;
+    padding-bottom: 25px;
 }
 
 .btn_wrap {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 30px;
+    padding-top: 30px;
 }
