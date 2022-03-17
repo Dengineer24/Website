@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, LinkWrapper, GitBtn, HeroGitLink, HeroLinkedInLink, LinkConatiner, HeroResumeLink } from './HeroElements';
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroBtnWrapper, LinkWrapper, HeroGitLink, HeroLinkedInLink, LinkConatiner, HeroResumeLink } from './HeroElements';
 import Typed from 'typed.js';
 import './app.css';
 import {Button} from '../ButtonElement';
@@ -56,9 +56,9 @@ const HeroSection = () => {
             </HeroBtnWrapper>
             <LinkConatiner>
               <LinkWrapper>
-                <HeroGitLink href={githubLink} target={target} rel="noopener noreferrer"><img class="Github_logo" src="../Github.png"></img></HeroGitLink>
-                <HeroLinkedInLink href={linkedInLink} target={target} rel="noopener noreferrer"><img class="LinkedIn_logo" src="../LI-In-Bug.png"></img></HeroLinkedInLink>
-                <HeroResumeLink href={resumeLink} target={target} rel="noopener noreferrer"><img class="Resume_logo" src="../unnamed.png"></img></HeroResumeLink>
+                <HeroGitLink href={githubLink} target={target} rel="noopener noreferrer"><img className="Github_logo" src="../Github.png" alt='git'></img></HeroGitLink>
+                <HeroLinkedInLink href={linkedInLink} target={target} rel="noopener noreferrer"><img className="LinkedIn_logo" src="../LI-In-Bug.png" alt='linked'></img></HeroLinkedInLink>
+                <HeroResumeLink href={resumeLink} target={target} rel="noopener noreferrer"><img className="Resume_logo" src="../unnamed.png" alt='resume'></img></HeroResumeLink>
               </LinkWrapper>
             </LinkConatiner>
         </HeroContent>

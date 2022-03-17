@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Link from "react-scroll"
 
 export const ProjectContainer = styled.div`
     background-color: #232a34;

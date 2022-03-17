@@ -24,7 +24,7 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav scrollNav = {scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="hero" smooth={true} duration={500} spy={true} exact="true" offset={-80} ><img src='../favicon.png' className='logo'></img></NavLogo>
+                    <NavLogo to="hero" smooth={true} duration={500} spy={true} exact="true" offset={-80} ><img src='../favicon.png' className='logo' alt='logo'></img></NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>

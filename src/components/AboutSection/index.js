@@ -1,5 +1,5 @@
 import React from 'react'
-import { AboutContainer, AboutWrapper, AboutSkills, SkillList, Cskills, Experince, AboutExperince } from './AboutElements'
+import { AboutContainer, AboutWrapper, AboutSkills, SkillList, Cskills } from './AboutElements'
 import "./app.css"
 import {Button} from '../ButtonElement';
 
@@ -7,8 +7,8 @@ function About() {
   return (
     <>
         <AboutContainer id="about">
-            <div class="about_me_cont">
-                <h1 class="about_me">About Me</h1>
+            <div className="about_me_cont">
+                <h1 className="about_me">About Me</h1>
             </div>
             <AboutWrapper>
                 <AboutSkills>
@@ -32,7 +32,7 @@ function About() {
                     </SkillList>
                 </AboutSkills>
             </AboutWrapper>
-            <div class="btn_wrap">
+            <div className="btn_wrap">
                 <Button to="projects" smooth={true} duration={500} spy={true} exact="true" offset={-80}>Projects</Button>
             </div>
         </AboutContainer>

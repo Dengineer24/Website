@@ -63,14 +63,3 @@ export const Cskills = styled.li`
     padding-bottom: 10px;
     font-size: 20px;
 `
-
-export const Experince = styled.div`
-    display: flex;
-    color: #fff;
-    justify-content: center;
-    text-decoration: none;
-    border: none;
-`
-
-export const AboutExperince = styled.div`
-`

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './app.css'
-import { ProjectContainer, ProjectWrapper, ProjectTitle, CardWrapper, CardContainer, Card, ProjectPic, ProjectInfoContainer, ProjectHeader, ProjectPara, Skills, ButtonWrapper, GtBtn} from './ProjectElements'
-import { Button } from '../ButtonElement'
+import { ProjectContainer, ProjectWrapper, ProjectTitle, CardWrapper, CardContainer, ProjectPic, ProjectInfoContainer, ProjectHeader, ProjectPara, Skills, ButtonWrapper, GtBtn} from './ProjectElements'
+
 
 function Projects() {
     const [display, setDisplay] = useState("notdisplayed");
@@ -24,7 +24,7 @@ function Projects() {
             </ProjectWrapper>
             <CardWrapper>
                 <CardContainer>
-                    <div class="projectCards">
+                    <div className="projectCards">
                             <ProjectPic src="../undraw_augmented_reality_re_f0qd.svg"></ProjectPic>
                             <ProjectInfoContainer>
                                 <ProjectHeader>intARactive Models</ProjectHeader>
@@ -40,7 +40,7 @@ function Projects() {
                     </div>
                 </CardContainer>
                 <CardContainer>
-                    <div class="projectCards1">
+                    <div className="projectCards1">
                         <ProjectPic src="../undraw_developer_activity_re_39tg.svg"></ProjectPic>
                         <ProjectInfoContainer>
                             <ProjectHeader>Sneaker Identifier</ProjectHeader>
@@ -49,11 +49,11 @@ function Projects() {
                             <Skills>React JS</Skills>
                             <Skills>HTML/CSS</Skills>
                         </ProjectInfoContainer>
-                        <a class="link" href="https://github.com/Dengineer24/Shoe-Identifier" target="_blank" rel="noopener noreferrer"><button class="viewMore1">GitHub</button></a>
+                        <a className="link" href="https://github.com/Dengineer24/Shoe-Identifier" target="_blank" rel="noopener noreferrer"><button className="viewMore1">GitHub</button></a>
                     </div>
                 </CardContainer>
                 <CardContainer>
-                    <div class="projectCards2">
+                    <div className="projectCards2">
                         <ProjectPic src="../undraw_tabs_re_a2bd.svg"></ProjectPic>
                         <ProjectInfoContainer>
                             <ProjectHeader>Portfolio Website</ProjectHeader>
@@ -62,12 +62,12 @@ function Projects() {
                             <Skills>HTML/CSS</Skills>
                             <Skills>JavaScript</Skills>
                         </ProjectInfoContainer>
-                        <a class="link" href="https://github.com/Dengineer24/Website" target="_blank" rel="noopener noreferrer"><button class="viewMore1">GitHub</button></a>
+                        <a className="link" href="https://github.com/Dengineer24/Website" target="_blank" rel="noopener noreferrer"><button className="viewMore1">GitHub</button></a>
                     </div>
                 </CardContainer>
             </CardWrapper>
             <ButtonWrapper>
-                <GtBtn href="https://github.com/Dengineer24?tab=repositories" target="_blank" rel="noopener noreferrer"><button class="viewMore">View More</button></GtBtn>
+                <GtBtn href="https://github.com/Dengineer24?tab=repositories" target="_blank" rel="noopener noreferrer"><button className="viewMore">View More</button></GtBtn>
             </ButtonWrapper>
         </ProjectContainer>
         
