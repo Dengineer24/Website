@@ -58,8 +58,8 @@ const HeroSection = () => {
               <LinkWrapper>
                 <HeroGitLink href={githubLink} target={target} rel="noopener noreferrer"><img className="Github_logo" src="../Github.png" alt='git'></img></HeroGitLink>
                 <HeroLinkedInLink href={linkedInLink} target={target} rel="noopener noreferrer"><img className="LinkedIn_logo" src="../LI-In-Bug.png" alt='linked'></img></HeroLinkedInLink>
-                <HeroResumeLink href={resumeLink} target={target} rel="noopener noreferrer"><img className="Resume_logo" src="../resume.png" alt='resume'></img></HeroResumeLink>
               </LinkWrapper>
+              <HeroResumeLink href={resumeLink} target={target} rel="noopener noreferrer"><button className='Resume'>Resume</button></HeroResumeLink>
             </LinkConatiner>
         </HeroContent>
     </HeroContainer>

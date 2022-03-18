@@ -54,3 +54,28 @@
     transition: 0.3s all ease-in-out;
     
 }
+
+.Resume {
+    border-radius: 40px;
+    background: black;
+    padding: 12px 30px;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    
+}
+
+.Resume:hover{
+    background-color: rgb(90, 70, 155);
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.1s all ease-in-out;
+}
