@@ -82,10 +82,13 @@ export const ProjectPara = styled.p`
 export const Skills = styled.p`
     border: 2px solid rgb(90, 70, 155);
     border-radius: 2px;
-    display: inline;
+    display: inline-flex;
     padding: 1px;
     margin: 1px;
     text-align: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
 `
 
 export const GtBtn = styled.a`

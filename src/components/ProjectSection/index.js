@@ -31,10 +31,12 @@ function Projects() {
                                 <ProjectPara>A full stack application that allows 
                                     students to view models of mechanical objects in 
                                     Augmented Reality, and chat at the same time</ProjectPara>
-                                <Skills>React JS</Skills>
-                                <Skills>Node.js</Skills>
-                                <Skills>Express.js</Skills>
-                                <Skills>HTML/CSS</Skills>
+                                <div className='SkillWrap'>
+                                    <Skills>React JS</Skills>
+                                    <Skills>Node.js</Skills>
+                                    <Skills>Express.js</Skills>
+                                    <Skills>HTML/CSS</Skills>
+                                </div>
                             </ProjectInfoContainer>
                             <a className="link" href="https://github.com/Dengineer24/intARactive-models" target="_blank" rel="noopener noreferrer"><button className="viewMore1">GitHub</button></a>
                     </div>
@@ -45,9 +47,11 @@ function Projects() {
                         <ProjectInfoContainer>
                             <ProjectHeader>Sneaker Identifier</ProjectHeader>
                             <ProjectPara>A python application that can detect sneakers through a machine learning algorithm</ProjectPara>
-                            <Skills>Python</Skills>
-                            <Skills>React JS</Skills>
-                            <Skills>HTML/CSS</Skills>
+                            <div className='SkillWrap'>
+                                <Skills>Python</Skills>
+                                <Skills>React JS</Skills>
+                                <Skills>HTML/CSS</Skills>
+                            </div>
                         </ProjectInfoContainer>
                         <a className="link" href="https://github.com/Dengineer24/Shoe-Identifier" target="_blank" rel="noopener noreferrer"><button className="viewMore1">GitHub</button></a>
                     </div>
@@ -58,9 +62,11 @@ function Projects() {
                         <ProjectInfoContainer>
                             <ProjectHeader>Portfolio Website</ProjectHeader>
                             <ProjectPara>A React JS website to view all projects and skills</ProjectPara>
-                            <Skills>React JS</Skills>
-                            <Skills>HTML/CSS</Skills>
-                            <Skills>JavaScript</Skills>
+                            <div className='SkillWrap'>
+                                <Skills>React JS</Skills>
+                                <Skills>HTML/CSS</Skills>
+                                <Skills>JavaScript</Skills>
+                            </div>
                         </ProjectInfoContainer>
                         <a className="link" href="https://github.com/Dengineer24/Website" target="_blank" rel="noopener noreferrer"><button className="viewMore1">GitHub</button></a>
                     </div>

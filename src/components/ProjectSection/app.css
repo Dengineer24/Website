@@ -112,3 +112,9 @@
     height: 20px;
     margin: auto;
 }
+
+.SkillWrap {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
