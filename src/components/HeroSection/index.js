@@ -38,7 +38,7 @@ const HeroSection = () => {
 
   const githubLink = "https://github.com/dengineer24";
   const linkedInLink = "https://linkedIn.com/in/dhruv-engineer";
-  const resumeLink = "https://drive.google.com/file/d/1dyJSynEy7GADGM3pL1tLepjEHe5-ozS0/view?usp=sharing"
+  const resumeLink = "https://drive.google.com/file/d/1WZSvt1LDSBeGvzCnYjSHYdFWZkgh_M9i/view?usp=sharing"
   const target = "_blank"
 
   return (
